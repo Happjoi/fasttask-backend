@@ -49,3 +49,5 @@ Antes de começar, certifique-se de ter o seguinte instalado:
     ```
 
 3.  Crie um arquivo `.env` na raiz da pasta `backend/` e configure as variáveis de ambiente.
+
+4.  Para Rodar basta entrar no link a seguir (https://fasttaskfe.netlify.app)
