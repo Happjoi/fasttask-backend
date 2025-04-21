@@ -2,27 +2,6 @@
 
 API RESTful desenvolvida em Node.js com Express e MongoDB, responsável por autenticação de usuários e gerenciamento de tarefas.
 
-## 📂 Estrutura do Projeto
-
-backend/
-├── config/
-│   └── db.js          # Configuração da conexão com o MongoDB
-├── controllers/
-│   ├── authController.js # Lógica para autenticação (registro e login)
-│   └── taskController.js # Lógica para operações CRUD de tarefas
-├── middleware/
-│   └── authMiddleware.js # Middleware para autenticação via JWT
-├── models/
-│   ├── Task.js           # Modelo Mongoose para Tarefas
-│   └── User.js           # Modelo Mongoose para Usuários
-├── routes/
-│   ├── authRoutes.js     # Definição das rotas de autenticação
-│   └── taskRoutes.js     # Definição das rotas de tarefas
-├── utils/
-│   └── formatDatePlugin.js # Plugin Mongoose para formatar datas
-├── app.js              # Arquivo principal da aplicação (servidor Express)
-└── package.json        # Gerenciador de pacotes e dependências
-
 ## Tecnologias Utilizadas
 
 * Node.js
